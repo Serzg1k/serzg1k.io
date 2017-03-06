@@ -1,0 +1,14 @@
+/*
+Theme Name: !!!!Striped
+Author: Vitaliy
+Description: Spalah test theme
+Version: 0.1
+*/
+@import "styles/style.css";
+@import "styles/style-desktop.css";
+@import "styles/style-1200px.css";
+
+.product-color {
+	width: 30px;
+	height: 30px;
+}
