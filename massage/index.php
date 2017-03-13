@@ -11,7 +11,7 @@
           <?php if ($i !== 3) :  ?>
      
             <div class="col-lg-4 main-content">
-              <?php if (has_post_thumbnail( )) : ?>
+              <?php if (has_post_thumbnail()) : ?>
               <img class="img-circle" <?php echo get_the_post_thumbnail($id, 'thumbnail'); ?> 
               <?php  else : ?>
             <img class="img-circle" src= "<?= get_template_directory_uri() . "/img/nopng.png"; ?>" alt="" width="150" height="150" />
