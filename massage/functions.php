@@ -2,6 +2,7 @@
 include 'core/metabox.php';
 include 'slider-option/slider.php';
 
+
 function load_my_theme_scripts() {
     $srz_slide = get_option( 'srz_slide' );
 
